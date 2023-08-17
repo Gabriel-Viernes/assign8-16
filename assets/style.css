@@ -1,6 +1,7 @@
 
 h1 {
-    color:purple
+    text-align: center;
+
     /*This is an element selector, in this case it will apply to every <h1> element in index.html*/
 }
 /*
@@ -18,3 +19,41 @@ h1 {
     color:pink;
     /*This is an id selector, it can only be used once with one element*/
 }
+.sidebar-container {
+    text-align: center;
+
+    display: block;
+    /*always starts a new line and takes the full width*/
+    margin-bottom: 1em;
+    /* em is the font size, sets the margin on the bottom of the element*/
+}
+.sidebar-links {
+    height: 5em;
+    list-style-type: none;
+    /*sets the styling of the bullet point*/
+
+}
+.sidebar-link-item{
+    display:inline-block;
+    font-size: xx-large;
+    margin-left:.3em;
+    margin-right: .3em;
+    /*makes the go from side to side*/
+}
+.lyric {
+    width: 25%;
+    text-align: center;
+    margin:auto;
+}
+.lyric-container {
+    display: flex;
+    flex-direction: column;
+    /*expands the margins of the container all the way to the edge of the screen to the left+right, effectively centering the block*/
+}
+.footer {
+    position:fixed;
+    bottom: 0;
+    margin:auto;
+}
+
+/*lmao*/
