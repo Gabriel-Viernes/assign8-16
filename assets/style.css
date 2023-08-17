@@ -1,0 +1,20 @@
+
+h1 {
+    color:purple
+    /*This is an element selector, in this case it will apply to every <h1> element in index.html*/
+}
+/*
+* {
+    This is a universal selector, it selects everything
+}
+*/
+.animals {
+    color:green;
+    background-color: brown;
+    /*This is a class selector, it will apply to anything that has been specified as belonging to this class */
+}
+
+#reibun {
+    color:pink;
+    /*This is an id selector, it can only be used once with one element*/
+}
